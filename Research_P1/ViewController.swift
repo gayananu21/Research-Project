@@ -6,8 +6,10 @@
 //
 
 import UIKit
+import CorePlot
 
 class ViewController: UIViewController {
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
