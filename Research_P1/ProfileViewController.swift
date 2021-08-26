@@ -9,6 +9,9 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet weak var noScans: UILabel!
+    @IBOutlet weak var noAbnormals: UILabel!
+    @IBOutlet weak var profileImage: UIImageView!
     
       @IBOutlet weak var kView: UIView!
       let count = 6
@@ -22,6 +25,18 @@ class ProfileViewController: UIViewController {
       override func viewDidLoad() {
           super.viewDidLoad()
 
+    
+        profileImage.layer.cornerRadius = profileImage.frame.height/2
+        profileImage.clipsToBounds = true
+        profileImage.alpha = 1
+        
+        noScans.layer.cornerRadius = noScans.frame.height/2
+        noScans.clipsToBounds = true
+        noScans.alpha = 1
+        
+        noAbnormals.layer.cornerRadius = noAbnormals.frame.height/2
+        noAbnormals.clipsToBounds = true
+        noAbnormals.alpha = 1
      
       }
       
