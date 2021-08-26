@@ -6,9 +6,13 @@
 //
 
 import UIKit
+import Lottie
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet weak var eView: UIView!
+    let lottieView = AnimationView()
+    
     @IBOutlet weak var noScans: UILabel!
     @IBOutlet weak var noAbnormals: UILabel!
     @IBOutlet weak var profileImage: UIImageView!
@@ -38,6 +42,30 @@ class ProfileViewController: UIViewController {
         noAbnormals.clipsToBounds = true
         noAbnormals.alpha = 1
      
+        
+        // Do any additional setup after loading the view.
+        self.lottieView.alpha = 1
+                                   self.lottieView.animation = Animation.named("Star")
+                                   //let lottieView = AnimationView(animation: loadingAnimation)
+                                       // 2. SECOND STEP (Adding and setup):
+        eView.addSubview(self.lottieView)
+                                   self.lottieView.contentMode = .scaleAspectFit
+                                   self.lottieView.loopMode = .autoReverse
+                                   self.lottieView.play(toFrame: .infinity)
+                                   
+                                   
+                                   
+                                       // 3. THIRD STEP (LAYOUT PREFERENCES):
+                                   self.lottieView.translatesAutoresizingMaskIntoConstraints = false
+                                       NSLayoutConstraint.activate([
+                                           self.lottieView.leftAnchor.constraint(equalTo: eView.leftAnchor),
+                                           self.lottieView.rightAnchor.constraint(equalTo: eView.rightAnchor),
+                                           self.lottieView.topAnchor.constraint(equalTo: eView.topAnchor),
+                                           self.lottieView.bottomAnchor.constraint(equalTo: eView.bottomAnchor)
+                                       ])
+ 
+        
+        
       }
       
 

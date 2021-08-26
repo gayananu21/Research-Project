@@ -2407,16 +2407,39 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrH-g6-5LJ">
+                                <rect key="frame" x="0.0" y="304" width="414" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="gIm-P6-r6F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FyK-HS-JqM">
+                                <rect key="frame" x="87" y="257" width="240" height="40"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="qKb-zd-dZ2"/>
+                                    <constraint firstAttribute="width" constant="240" id="tSv-nE-853"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="L9M-Ur-YwY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="L9M-Ur-YwY" firstAttribute="trailing" secondItem="wrH-g6-5LJ" secondAttribute="trailing" id="1VE-qA-Jlv"/>
                             <constraint firstItem="rTJ-tC-Nrm" firstAttribute="centerX" secondItem="ltM-1k-JgK" secondAttribute="centerX" id="1j3-Ef-YHT"/>
+                            <constraint firstItem="wrH-g6-5LJ" firstAttribute="leading" secondItem="L9M-Ur-YwY" secondAttribute="leading" id="1mb-j9-Hmn"/>
                             <constraint firstItem="1LJ-ba-gxZ" firstAttribute="centerX" secondItem="ltM-1k-JgK" secondAttribute="centerX" id="9iV-GB-7RI"/>
                             <constraint firstItem="L9M-Ur-YwY" firstAttribute="bottom" secondItem="tpc-Fl-cOW" secondAttribute="bottom" id="Coy-4W-X5i"/>
+                            <constraint firstItem="FyK-HS-JqM" firstAttribute="centerX" secondItem="ltM-1k-JgK" secondAttribute="centerX" id="JQI-dr-Syf"/>
                             <constraint firstItem="1LJ-ba-gxZ" firstAttribute="top" secondItem="L9M-Ur-YwY" secondAttribute="top" constant="50" id="QNX-8l-i3m"/>
                             <constraint firstItem="tpc-Fl-cOW" firstAttribute="leading" secondItem="L9M-Ur-YwY" secondAttribute="leading" id="RTW-pE-4pg"/>
                             <constraint firstItem="tpc-Fl-cOW" firstAttribute="top" secondItem="rTJ-tC-Nrm" secondAttribute="bottom" constant="50" id="Wxo-Ms-Fna"/>
+                            <constraint firstItem="tpc-Fl-cOW" firstAttribute="top" secondItem="wrH-g6-5LJ" secondAttribute="bottom" constant="1" id="eqa-q8-y29"/>
+                            <constraint firstItem="FyK-HS-JqM" firstAttribute="top" secondItem="rTJ-tC-Nrm" secondAttribute="bottom" constant="1" id="fTc-wj-u17"/>
                             <constraint firstItem="L9M-Ur-YwY" firstAttribute="trailing" secondItem="tpc-Fl-cOW" secondAttribute="trailing" id="jx8-w8-ULs"/>
                             <constraint firstItem="rTJ-tC-Nrm" firstAttribute="top" secondItem="1LJ-ba-gxZ" secondAttribute="bottom" id="mBK-Tu-Bdy"/>
                             <constraint firstItem="bBa-AF-LGc" firstAttribute="top" secondItem="L9M-Ur-YwY" secondAttribute="top" id="qUD-cs-kFW"/>
@@ -2426,6 +2449,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="person.circle" catalog="system" id="0UB-8Q-goc"/>
                     <connections>
+                        <outlet property="eView" destination="FyK-HS-JqM" id="lzs-AU-CtA"/>
                         <outlet property="noAbnormals" destination="nXC-l1-wUw" id="QI3-zp-ewi"/>
                         <outlet property="noScans" destination="o8e-5H-9Pu" id="Prn-Ty-9xG"/>
                         <outlet property="profileImage" destination="1LJ-ba-gxZ" id="OGL-dg-DN2"/>

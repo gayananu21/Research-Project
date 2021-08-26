@@ -11,6 +11,7 @@
 		9B07EBC926CFCF310074FA3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B07EBC826CFCF300074FA3B /* GoogleService-Info.plist */; };
 		9B16F06E26D1646F001C2B73 /* ThetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16F06D26D1646F001C2B73 /* ThetaViewController.swift */; };
 		9B16F07026D16486001C2B73 /* BetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16F06F26D16486001C2B73 /* BetaViewController.swift */; };
+		9B8D444726D78C2C0023B2B4 /* Star.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D444626D78C2B0023B2B4 /* Star.json */; };
 		9BA6F3B126D127FE00AF9F46 /* AlphaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6F3B026D127FD00AF9F46 /* AlphaViewController.swift */; };
 		9BA6F3B326D13A8200AF9F46 /* Helpers in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6F3B226D13A8200AF9F46 /* Helpers */; };
 		9BA6F3B526D142D900AF9F46 /* Doc.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6F3B426D142D700AF9F46 /* Doc.json */; };
@@ -67,6 +68,7 @@
 		9B07EBC826CFCF300074FA3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9B16F06D26D1646F001C2B73 /* ThetaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThetaViewController.swift; sourceTree = "<group>"; };
 		9B16F06F26D16486001C2B73 /* BetaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetaViewController.swift; sourceTree = "<group>"; };
+		9B8D444626D78C2B0023B2B4 /* Star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Star.json; sourceTree = "<group>"; };
 		9BA6F3B026D127FD00AF9F46 /* AlphaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaViewController.swift; sourceTree = "<group>"; };
 		9BA6F3B226D13A8200AF9F46 /* Helpers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Helpers; sourceTree = "<group>"; };
 		9BA6F3B426D142D700AF9F46 /* Doc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Doc.json; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				9BE99A9626D24D8D006FA659 /* Book.json */,
 				9BA8D75126CFBAE500DF5026 /* SceneDelegate.swift */,
 				9BE99AB626D3C806006FA659 /* Dog_H.json */,
+				9B8D444626D78C2B0023B2B4 /* Star.json */,
 				9BE99AB726D3C813006FA659 /* Dog_h2.json */,
 				9BA8D75326CFBAE500DF5026 /* ViewController.swift */,
 				9B07EBC226CFCB080074FA3B /* EEG_HOME_ViewController.swift */,
@@ -354,6 +357,7 @@
 				9BE99AB926D3C815006FA659 /* Dog_h2.json in Resources */,
 				9BA8D75C26CFBAF800DF5026 /* Assets.xcassets in Resources */,
 				9B07EBC926CFCF310074FA3B /* GoogleService-Info.plist in Resources */,
+				9B8D444726D78C2C0023B2B4 /* Star.json in Resources */,
 				9BA8D75726CFBAE500DF5026 /* Main.storyboard in Resources */,
 				9BA6F3B326D13A8200AF9F46 /* Helpers in Resources */,
 			);
