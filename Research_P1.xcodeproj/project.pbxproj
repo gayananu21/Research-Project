@@ -11,10 +11,19 @@
 		9B07EBC926CFCF310074FA3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B07EBC826CFCF300074FA3B /* GoogleService-Info.plist */; };
 		9B16F06E26D1646F001C2B73 /* ThetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16F06D26D1646F001C2B73 /* ThetaViewController.swift */; };
 		9B16F07026D16486001C2B73 /* BetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16F06F26D16486001C2B73 /* BetaViewController.swift */; };
+		9B37387226F4D696007041F2 /* SignUpScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37386F26F4D694007041F2 /* SignUpScreenViewController.swift */; };
+		9B37387326F4D696007041F2 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37387026F4D695007041F2 /* ForgotPasswordViewController.swift */; };
+		9B37387426F4D696007041F2 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37387126F4D695007041F2 /* LoginScreenViewController.swift */; };
+		9B37387626F4DA83007041F2 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37387526F4DA83007041F2 /* HomeTabViewController.swift */; };
+		9B37387826F4F4C3007041F2 /* UHBCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37387726F4F4C3007041F2 /* UHBCustomLabel.swift */; };
+		9B37387A26F4FB6F007041F2 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37387926F4FB6F007041F2 /* RoundButton.swift */; };
+		9B37387C26F4FBC9007041F2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B37387B26F4FBC9007041F2 /* Utilities.swift */; };
 		9B8D444726D78C2C0023B2B4 /* Star.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D444626D78C2B0023B2B4 /* Star.json */; };
 		9BA6F3B126D127FE00AF9F46 /* AlphaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6F3B026D127FD00AF9F46 /* AlphaViewController.swift */; };
 		9BA6F3B326D13A8200AF9F46 /* Helpers in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6F3B226D13A8200AF9F46 /* Helpers */; };
 		9BA6F3B526D142D900AF9F46 /* Doc.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6F3B426D142D700AF9F46 /* Doc.json */; };
+		9BA85C9A26E73CEC0066DD49 /* sTag.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA85C9926E73CEB0066DD49 /* sTag.json */; };
+		9BA85C9C26E7417E0066DD49 /* Gradi_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA85C9B26E7417E0066DD49 /* Gradi_.swift */; };
 		9BA8D75026CFBAE500DF5026 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA8D74F26CFBAE500DF5026 /* AppDelegate.swift */; };
 		9BA8D75226CFBAE500DF5026 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA8D75126CFBAE500DF5026 /* SceneDelegate.swift */; };
 		9BA8D75426CFBAE500DF5026 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA8D75326CFBAE500DF5026 /* ViewController.swift */; };
@@ -37,6 +46,7 @@
 		9BE99AB826D3C815006FA659 /* Dog_H.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BE99AB626D3C806006FA659 /* Dog_H.json */; };
 		9BE99AB926D3C815006FA659 /* Dog_h2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BE99AB726D3C813006FA659 /* Dog_h2.json */; };
 		9BE99ABB26D3C84A006FA659 /* AutomationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE99ABA26D3C849006FA659 /* AutomationViewController.swift */; };
+		9BEC7E4526E72CD600054EE1 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC7E4426E72CD600054EE1 /* SelectViewController.swift */; };
 		B4A694A3294CB34E449F3967 /* Pods_Research_P1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2ADE6A0B2B4B4F62D7A0BB3 /* Pods_Research_P1Tests.framework */; };
 		C3728407D224862A343B4FB9 /* Pods_Research_P1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88CDA233E0FC6BC19927D46 /* Pods_Research_P1.framework */; };
 		C4B4F6AFDA7E23C93D94BAB5 /* Pods_Research_P1_Research_P1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364A9A2B889E39D41528DF70 /* Pods_Research_P1_Research_P1UITests.framework */; };
@@ -68,10 +78,19 @@
 		9B07EBC826CFCF300074FA3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9B16F06D26D1646F001C2B73 /* ThetaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThetaViewController.swift; sourceTree = "<group>"; };
 		9B16F06F26D16486001C2B73 /* BetaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetaViewController.swift; sourceTree = "<group>"; };
+		9B37386F26F4D694007041F2 /* SignUpScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpScreenViewController.swift; sourceTree = "<group>"; };
+		9B37387026F4D695007041F2 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		9B37387126F4D695007041F2 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		9B37387526F4DA83007041F2 /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		9B37387726F4F4C3007041F2 /* UHBCustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHBCustomLabel.swift; sourceTree = "<group>"; };
+		9B37387926F4FB6F007041F2 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		9B37387B26F4FBC9007041F2 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		9B8D444626D78C2B0023B2B4 /* Star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Star.json; sourceTree = "<group>"; };
 		9BA6F3B026D127FD00AF9F46 /* AlphaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaViewController.swift; sourceTree = "<group>"; };
 		9BA6F3B226D13A8200AF9F46 /* Helpers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Helpers; sourceTree = "<group>"; };
 		9BA6F3B426D142D700AF9F46 /* Doc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Doc.json; sourceTree = "<group>"; };
+		9BA85C9926E73CEB0066DD49 /* sTag.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sTag.json; sourceTree = "<group>"; };
+		9BA85C9B26E7417E0066DD49 /* Gradi_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradi_.swift; sourceTree = "<group>"; };
 		9BA8D74C26CFBAE500DF5026 /* Research_P1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Research_P1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA8D74F26CFBAE500DF5026 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BA8D75126CFBAE500DF5026 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +119,7 @@
 		9BE99AB626D3C806006FA659 /* Dog_H.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dog_H.json; sourceTree = "<group>"; };
 		9BE99AB726D3C813006FA659 /* Dog_h2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dog_h2.json; sourceTree = "<group>"; };
 		9BE99ABA26D3C849006FA659 /* AutomationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationViewController.swift; sourceTree = "<group>"; };
+		9BEC7E4426E72CD600054EE1 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
 		A2ADE6A0B2B4B4F62D7A0BB3 /* Pods_Research_P1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Research_P1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88CDA233E0FC6BC19927D46 /* Pods_Research_P1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Research_P1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37675FEC39EEA0533DD7396 /* Pods-Research_P1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Research_P1Tests.release.xcconfig"; path = "Target Support Files/Pods-Research_P1Tests/Pods-Research_P1Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -188,17 +208,27 @@
 				9BE99AA926D29D1F006FA659 /* CardView */,
 				9BA6F3B426D142D700AF9F46 /* Doc.json */,
 				9BE99A9626D24D8D006FA659 /* Book.json */,
+				9BA85C9B26E7417E0066DD49 /* Gradi_.swift */,
 				9BA8D75126CFBAE500DF5026 /* SceneDelegate.swift */,
 				9BE99AB626D3C806006FA659 /* Dog_H.json */,
 				9B8D444626D78C2B0023B2B4 /* Star.json */,
+				9BA85C9926E73CEB0066DD49 /* sTag.json */,
 				9BE99AB726D3C813006FA659 /* Dog_h2.json */,
 				9BA8D75326CFBAE500DF5026 /* ViewController.swift */,
+				9B37387B26F4FBC9007041F2 /* Utilities.swift */,
 				9B07EBC226CFCB080074FA3B /* EEG_HOME_ViewController.swift */,
+				9B37387726F4F4C3007041F2 /* UHBCustomLabel.swift */,
+				9B37387926F4FB6F007041F2 /* RoundButton.swift */,
 				9BE99ABA26D3C849006FA659 /* AutomationViewController.swift */,
+				9B37387026F4D695007041F2 /* ForgotPasswordViewController.swift */,
+				9B37387126F4D695007041F2 /* LoginScreenViewController.swift */,
+				9B37386F26F4D694007041F2 /* SignUpScreenViewController.swift */,
 				9BA6F3B026D127FD00AF9F46 /* AlphaViewController.swift */,
 				9B16F06D26D1646F001C2B73 /* ThetaViewController.swift */,
 				9B16F06F26D16486001C2B73 /* BetaViewController.swift */,
 				9BA8D75526CFBAE500DF5026 /* Main.storyboard */,
+				9B37387526F4DA83007041F2 /* HomeTabViewController.swift */,
+				9BEC7E4426E72CD600054EE1 /* SelectViewController.swift */,
 				9BE99AAE26D3A9DA006FA659 /* EmergencyViewController.swift */,
 				9BE99AB026D3A9FE006FA659 /* ScanViewController.swift */,
 				9BE99AB226D3AA3A006FA659 /* CommunicateViewController.swift */,
@@ -356,6 +386,7 @@
 				9BE99AB826D3C815006FA659 /* Dog_H.json in Resources */,
 				9BE99AB926D3C815006FA659 /* Dog_h2.json in Resources */,
 				9BA8D75C26CFBAF800DF5026 /* Assets.xcassets in Resources */,
+				9BA85C9A26E73CEC0066DD49 /* sTag.json in Resources */,
 				9B07EBC926CFCF310074FA3B /* GoogleService-Info.plist in Resources */,
 				9B8D444726D78C2C0023B2B4 /* Star.json in Resources */,
 				9BA8D75726CFBAE500DF5026 /* Main.storyboard in Resources */,
@@ -488,7 +519,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BA8D75426CFBAE500DF5026 /* ViewController.swift in Sources */,
+				9B37387426F4D696007041F2 /* LoginScreenViewController.swift in Sources */,
+				9B37387226F4D696007041F2 /* SignUpScreenViewController.swift in Sources */,
+				9B37387326F4D696007041F2 /* ForgotPasswordViewController.swift in Sources */,
 				9BA8D75A26CFBAE500DF5026 /* Research_P1.xcdatamodeld in Sources */,
+				9B37387626F4DA83007041F2 /* HomeTabViewController.swift in Sources */,
+				9B37387A26F4FB6F007041F2 /* RoundButton.swift in Sources */,
 				9BE99AB126D3A9FF006FA659 /* ScanViewController.swift in Sources */,
 				9BA8D75026CFBAE500DF5026 /* AppDelegate.swift in Sources */,
 				9BA6F3B126D127FE00AF9F46 /* AlphaViewController.swift in Sources */,
@@ -496,15 +532,19 @@
 				9BE99AA726D29D08006FA659 /* CardItem.swift in Sources */,
 				9BE99ABB26D3C84A006FA659 /* AutomationViewController.swift in Sources */,
 				9BA8D75226CFBAE500DF5026 /* SceneDelegate.swift in Sources */,
+				9BA85C9C26E7417E0066DD49 /* Gradi_.swift in Sources */,
+				9B37387C26F4FBC9007041F2 /* Utilities.swift in Sources */,
 				9BE99AA626D29D08006FA659 /* ImageCardItem.swift in Sources */,
 				9BE99AAF26D3A9DD006FA659 /* EmergencyViewController.swift in Sources */,
 				9B16F07026D16486001C2B73 /* BetaViewController.swift in Sources */,
 				9BE99A9526D24C75006FA659 /* KnowledgeViewController.swift in Sources */,
 				9BE99AAB26D2A28A006FA659 /* ProfileViewController.swift in Sources */,
+				9BEC7E4526E72CD600054EE1 /* SelectViewController.swift in Sources */,
 				9BE99AA826D29D08006FA659 /* CardView.swift in Sources */,
 				9BE99AB526D3AA53006FA659 /* BenefitsViewController.swift in Sources */,
 				9BE99AB326D3AA3A006FA659 /* CommunicateViewController.swift in Sources */,
 				9B07EBC326CFCB080074FA3B /* EEG_HOME_ViewController.swift in Sources */,
+				9B37387826F4F4C3007041F2 /* UHBCustomLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

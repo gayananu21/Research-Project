@@ -161,6 +161,7 @@ extension KnowledgeViewController: CardViewDataSource {
     
     func cardView(_ cardView: CardView, cellForItemAt Index: Int) -> CardItem {
         
+        
         //序号越靠前,越在前面..0最上面.
         var item: ImageCardItem!
         if let image = UIImage(named: "img_0" + "\(Index)") {

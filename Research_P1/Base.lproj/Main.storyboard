@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dhb-GY-Xds">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KiO-9J-GgJ">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -39,40 +39,40 @@
                                         <subviews>
                                             <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALPHA 13" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRI-th-kQB">
                                                 <rect key="frame" x="36" y="145" width="98" height="98"/>
-                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="98" id="3hA-cd-uAT"/>
                                                     <constraint firstAttribute="width" constant="98" id="U3E-5y-ttp"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="14"/>
-                                                <color key="textColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" systemColor="secondaryLabelColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BETA 45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZoA-34-npP">
                                                 <rect key="frame" x="282" y="145" width="98" height="98"/>
-                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="98" id="XbA-JZ-o2d"/>
                                                     <constraint firstAttribute="width" constant="98" id="m6O-Oq-8l1"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="14"/>
-                                                <color key="textColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" systemColor="secondaryLabelColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THETA 26" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sX-Qu-MFu">
                                                 <rect key="frame" x="158" y="20" width="98" height="98"/>
-                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="98" id="Ghn-Fm-fVY"/>
                                                     <constraint firstAttribute="width" constant="98" id="Nxg-Z4-l8N"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="14"/>
-                                                <color key="textColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" systemColor="secondaryLabelColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fcx-o9-zxa">
                                                 <rect key="frame" x="117" y="241" width="180" height="179"/>
-                                                <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.59999999999999998" green="1" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="180" id="cGF-5x-O2s"/>
                                                 </constraints>
@@ -94,13 +94,13 @@
                                                 <subviews>
                                                     <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PET Mental Status:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmg-8h-nHN">
                                                         <rect key="frame" x="0.0" y="0.0" width="160" height="53"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="16"/>
+                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NORMAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAP-Kf-3Ny">
                                                         <rect key="frame" x="160" y="0.0" width="160" height="53"/>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="16"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -127,13 +127,13 @@
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Signal Quality:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7FN-yT-Lm7">
                                                         <rect key="frame" x="0.0" y="0.0" width="160" height="53"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="16"/>
+                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="67%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w43-57-fSY">
                                                         <rect key="frame" x="160" y="0.0" width="160" height="53"/>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="16"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -182,7 +182,7 @@
                                                     <constraint firstAttribute="width" constant="179" id="n6d-Ir-xON"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="14"/>
-                                                <color key="textColor" red="1" green="0.67030254865981975" blue="0.18877098505001" alpha="0.76328535269427777" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.0" green="0.41973147656839649" blue="0.58595152575560294" alpha="0.70490734782439979" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QWc-9h-8kZ" customClass="GradientView">
@@ -194,7 +194,7 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="80" id="n8c-aE-Vp2"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="24"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -209,20 +209,20 @@
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wave Type" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQK-x1-ClI">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="118" height="58"/>
-                                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="16"/>
-                                                                                <nil key="textColor"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Light" family="Kohinoor Bangla" pointSize="16"/>
+                                                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frequency" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wqp-D0-NxE">
                                                                                 <rect key="frame" x="118" y="0.0" width="118" height="58"/>
-                                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="16"/>
-                                                                                <nil key="textColor"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Light" family="Kohinoor Bangla" pointSize="16"/>
+                                                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recommended Frequency" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfM-BY-MnW">
                                                                                 <rect key="frame" x="236" y="0.0" width="118" height="58"/>
-                                                                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="16"/>
-                                                                                <nil key="textColor"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Light" family="Kohinoor Bangla" pointSize="16"/>
+                                                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                         </subviews>
@@ -456,7 +456,7 @@
                                                         </constraints>
                                                     </stackView>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.64400696044118644" green="1" blue="0.68619243959745113" alpha="0.43938451097501036" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="0.21290810692389281" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstItem="aHS-v5-h65" firstAttribute="leading" secondItem="QWc-9h-8kZ" secondAttribute="leading" id="Dns-ew-Zty"/>
                                                     <constraint firstItem="aHS-v5-h65" firstAttribute="top" secondItem="48a-dF-dLa" secondAttribute="bottom" id="IFz-Dt-hkQ"/>
@@ -2136,10 +2136,103 @@
             </objects>
             <point key="canvasLocation" x="9027.536231884058" y="-1435.5978260869567"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Select View Controller-->
+        <scene sceneID="rtg-xS-fMC">
+            <objects>
+                <viewController storyboardIdentifier="Select" id="soi-yr-yJe" customClass="SelectViewController" customModule="Research_P1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ONk-Rn-X4R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SELECT YOUR PET TYPE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qj-Oe-M52">
+                                <rect key="frame" x="15.666666666666657" y="10" width="383" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="383" id="1ac-oC-B3T"/>
+                                    <constraint firstAttribute="height" constant="71" id="ssW-fi-war"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="LHp-pp-FBg">
+                                <rect key="frame" x="132" y="201" width="150" height="350"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXX-50-bLT" customClass="RoundButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <state key="normal" image="cat-line-icon-vector-28099798"/>
+                                        <connections>
+                                            <action selector="onTappedCat:" destination="soi-yr-yJe" eventType="touchUpInside" id="uPk-gC-Q8h"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAO-7w-Ova" customClass="RoundButton">
+                                        <rect key="frame" x="0.0" y="200" width="150" height="150"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <state key="normal" title="Dog" image="black-dog-thin-line-icon-vector-12050890"/>
+                                        <connections>
+                                            <action selector="onTappedDog:" destination="soi-yr-yJe" eventType="touchUpInside" id="OtD-2A-dbj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="LAO-7w-Ova" firstAttribute="height" secondItem="BXX-50-bLT" secondAttribute="height" id="2EM-0B-YLV"/>
+                                    <constraint firstAttribute="width" constant="150" id="Sgq-wu-Yw1"/>
+                                    <constraint firstAttribute="height" constant="350" id="fUw-uq-gi8"/>
+                                    <constraint firstItem="LAO-7w-Ova" firstAttribute="width" secondItem="BXX-50-bLT" secondAttribute="width" id="xds-ub-yH7"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pjp-td-g9d">
+                                <rect key="frame" x="187" y="66" width="40" height="40"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6dG-Hg-hb3"/>
+                                    <constraint firstAttribute="width" constant="40" id="jFe-lw-x30"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="klx-rR-Cqu" customClass="GradientView_VIEWS" customModule="Research_P1" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="706" width="414" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="uJj-gr-FFG"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                        <color key="value" red="0.37715135729815574" green="0.88184091632826445" blue="1" alpha="0.44813305179014901" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XWD-9g-F6X"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="klx-rR-Cqu" firstAttribute="bottom" secondItem="XWD-9g-F6X" secondAttribute="bottom" id="1Lk-2z-qk2"/>
+                            <constraint firstItem="7qj-Oe-M52" firstAttribute="top" secondItem="XWD-9g-F6X" secondAttribute="top" constant="10" id="4Ei-FC-HCK"/>
+                            <constraint firstItem="pjp-td-g9d" firstAttribute="centerX" secondItem="ONk-Rn-X4R" secondAttribute="centerX" id="8cv-TQ-9qh"/>
+                            <constraint firstItem="pjp-td-g9d" firstAttribute="top" secondItem="7qj-Oe-M52" secondAttribute="bottom" constant="-15" id="PgK-pK-8cf"/>
+                            <constraint firstItem="LHp-pp-FBg" firstAttribute="centerX" secondItem="ONk-Rn-X4R" secondAttribute="centerX" id="Q8X-Ff-iTy"/>
+                            <constraint firstItem="klx-rR-Cqu" firstAttribute="leading" secondItem="XWD-9g-F6X" secondAttribute="leading" id="TLN-uG-mON"/>
+                            <constraint firstItem="LHp-pp-FBg" firstAttribute="top" secondItem="7qj-Oe-M52" secondAttribute="bottom" constant="120" id="XWH-Gh-mFf"/>
+                            <constraint firstItem="7qj-Oe-M52" firstAttribute="centerX" secondItem="ONk-Rn-X4R" secondAttribute="centerX" id="iiX-z4-McO"/>
+                            <constraint firstItem="klx-rR-Cqu" firstAttribute="trailing" secondItem="XWD-9g-F6X" secondAttribute="trailing" id="zIz-L5-5hq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="catButton" destination="BXX-50-bLT" id="DVM-wL-Bka"/>
+                        <outlet property="dogButton" destination="LAO-7w-Ova" id="0hK-5t-teK"/>
+                        <outlet property="eView" destination="pjp-td-g9d" id="FeG-lH-1bl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HcL-ak-U4S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3042.0289855072465" y="-1445.3804347826087"/>
+        </scene>
+        <!--Home Tab View Controller-->
         <scene sceneID="FPb-rH-nUL">
             <objects>
-                <tabBarController storyboardIdentifier="SCAN_TAB" automaticallyAdjustsScrollViewInsets="NO" id="dhb-GY-Xds" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="HOME_TAB" automaticallyAdjustsScrollViewInsets="NO" id="dhb-GY-Xds" customClass="HomeTabViewController" customModule="Research_P1" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="noe-hp-dj3">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -2472,8 +2565,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="kYe-8L-Mck"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="24"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tok-Hi-2P6">
@@ -2512,7 +2605,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NGS-4U-uOs" customClass="GradientView">
                                                                         <rect key="frame" x="0.0" y="0.0" width="122.33333333333333" height="192"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmQ-Yd-VHX">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Morning" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmQ-Yd-VHX">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="122.33333333333333" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="PTb-5L-peS"/>
@@ -2549,7 +2642,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w5f-hc-MPR" customClass="GradientView">
                                                                         <rect key="frame" x="152.33333333333334" y="0.0" width="122.33333333333334" height="192"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlA-eF-FIh">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Afternoon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlA-eF-FIh">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="122.33333333333333" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="R4j-Ci-QeN"/>
@@ -2586,7 +2679,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="747-WF-FmT" customClass="GradientView">
                                                                         <rect key="frame" x="304.66666666666669" y="0.0" width="122.33333333333331" height="192"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="InS-Y8-ogO">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Night" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="InS-Y8-ogO">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="122.33333333333333" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="ia3-0M-Dbu"/>
@@ -2623,7 +2716,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ySM-CY-wDj" customClass="GradientView">
                                                                         <rect key="frame" x="456.99999999999994" y="0.0" width="122.33333333333331" height="192"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTf-MP-Y7z">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you take brakfast" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTf-MP-Y7z">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="122.33333333333333" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="kld-7y-iEg"/>
@@ -2660,7 +2753,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dJb-45-Hbq" customClass="GradientView">
                                                                         <rect key="frame" x="609.33333333333337" y="0.0" width="122.33333333333337" height="192"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgn-Kx-rEA">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you take lunch?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgn-Kx-rEA">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="122.33333333333333" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="4bg-nC-Ghs"/>
@@ -2697,7 +2790,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GeZ-R2-vRZ" customClass="GradientView">
                                                                         <rect key="frame" x="761.66666666666663" y="0.0" width="122.33333333333337" height="192"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hk-V0-elL">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you take dinner?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hk-V0-elL">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="122.33333333333333" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="A5c-lD-2B4"/>
@@ -3137,7 +3230,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uq6-B7-1Gu" customClass="GradientView">
                                                                         <rect key="frame" x="0.0" y="0.0" width="126" height="217"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXr-zx-mv8">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you take Breakfast?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXr-zx-mv8">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="9qU-9J-mnY"/>
@@ -3174,7 +3267,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ct3-27-GlM" customClass="GradientView">
                                                                         <rect key="frame" x="156" y="0.0" width="126" height="217"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="os0-Nd-Odt">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wanna go outside?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="os0-Nd-Odt">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="bq4-fE-OlT"/>
@@ -3211,7 +3304,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LnM-gL-OW9" customClass="GradientView">
                                                                         <rect key="frame" x="312" y="0.0" width="126" height="217"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Yp-p3-jEY">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have a nap. I will be home soon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Yp-p3-jEY">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="MvR-e6-bXS"/>
@@ -3248,7 +3341,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sb3-5m-0BG" customClass="GradientView">
                                                                         <rect key="frame" x="468" y="0.0" width="126" height="217"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DB1-av-YE6">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Morning" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DB1-av-YE6">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="cWj-Mq-czW"/>
@@ -3285,7 +3378,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PZo-rM-Ifb" customClass="GradientView">
                                                                         <rect key="frame" x="624" y="0.0" width="126" height="217"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iV2-ax-TwV">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good night" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iV2-ax-TwV">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="63s-rK-FEb"/>
@@ -3374,12 +3467,12 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fqT-xA-5dy" customClass="GradientView">
                                                                         <rect key="frame" x="0.0" y="0.0" width="126" height="233"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vm3-YK-tj4">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Morning" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vm3-YK-tj4">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="8um-KM-JNn"/>
                                                                                 </constraints>
-                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="16"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -3411,12 +3504,12 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OTA-ea-hxa" customClass="GradientView">
                                                                         <rect key="frame" x="156" y="0.0" width="126" height="233"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWs-zm-jnS">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did take brakfast?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWs-zm-jnS">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="WZg-0d-4MC"/>
                                                                                 </constraints>
-                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="16"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -3448,12 +3541,12 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ddv-7q-RCs" customClass="GradientView">
                                                                         <rect key="frame" x="312" y="0.0" width="126" height="233"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdX-pE-QQp">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wanna go outside?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdX-pE-QQp">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="OzB-6P-o5O"/>
                                                                                 </constraints>
-                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="16"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -3485,12 +3578,12 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mDM-2o-BqK" customClass="GradientView">
                                                                         <rect key="frame" x="468" y="0.0" width="126" height="233"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrF-q3-NEV">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eat some cookies" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrF-q3-NEV">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="19B-9L-H7W"/>
                                                                                 </constraints>
-                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="16"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -3522,12 +3615,12 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FQY-MZ-gRK" customClass="GradientView">
                                                                         <rect key="frame" x="624" y="0.0" width="126" height="233"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wzQ-hL-d5m">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stay awake I will be home soon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wzQ-hL-d5m">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="1nL-dw-QPX"/>
                                                                                 </constraints>
-                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="16"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -3611,12 +3704,12 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vph-db-Oew" customClass="GradientView">
                                                                         <rect key="frame" x="0.0" y="0.0" width="126" height="192"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wl7-GX-xqm">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Afternoon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wl7-GX-xqm">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="iKG-FN-chV"/>
                                                                                 </constraints>
-                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="17"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -3648,12 +3741,12 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bRH-mi-38k" customClass="GradientView">
                                                                         <rect key="frame" x="156" y="0.0" width="126" height="192"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUT-Ik-RcW">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did take lunch?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUT-Ik-RcW">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="OLp-bh-h71"/>
                                                                                 </constraints>
-                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="17"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -3685,12 +3778,12 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J4R-oR-jqg" customClass="GradientView">
                                                                         <rect key="frame" x="312" y="0.0" width="126" height="192"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySw-5O-13C">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wanna play ball game?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySw-5O-13C">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="sKN-RI-OKJ"/>
                                                                                 </constraints>
-                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="17"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -3722,12 +3815,12 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q1h-0N-Emh" customClass="GradientView">
                                                                         <rect key="frame" x="468" y="0.0" width="126" height="192"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjZ-0B-chq">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who is good boy?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjZ-0B-chq">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="dRO-67-qZh"/>
                                                                                 </constraints>
-                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="17"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -3759,12 +3852,12 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PDS-Sp-04O" customClass="GradientView">
                                                                         <rect key="frame" x="624" y="0.0" width="126" height="192"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sl6-OG-iTl">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hey I will be home soon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sl6-OG-iTl">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="7ED-tB-9Ar"/>
                                                                                 </constraints>
-                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="17"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -3848,12 +3941,12 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xJD-de-N7j" customClass="GradientView">
                                                                         <rect key="frame" x="0.0" y="0.0" width="126" height="200"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRm-h6-d7W">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hey! Good night" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRm-h6-d7W">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="0gH-0i-5op"/>
                                                                                 </constraints>
-                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="17"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -3885,12 +3978,12 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lgo-2s-9QQ" customClass="GradientView">
                                                                         <rect key="frame" x="156" y="0.0" width="126" height="200"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ny-7w-eoe">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did take dinner?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ny-7w-eoe">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="0Ot-Nw-R6D"/>
                                                                                 </constraints>
-                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="17"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -3922,12 +4015,12 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qn1-Tf-dlT" customClass="GradientView">
                                                                         <rect key="frame" x="312" y="0.0" width="126" height="200"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8W6-um-Jpj">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guess your dinner to night?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8W6-um-Jpj">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="5u6-Ji-FFg"/>
                                                                                 </constraints>
-                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="17"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -3959,12 +4052,12 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ad0-6L-a9v" customClass="GradientView">
                                                                         <rect key="frame" x="468" y="0.0" width="126" height="200"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xq6-aP-Xbm">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you poop in house again?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xq6-aP-Xbm">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="TBY-3N-rLb"/>
                                                                                 </constraints>
-                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="17"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -3996,12 +4089,12 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IvR-dn-N7E" customClass="GradientView">
                                                                         <rect key="frame" x="624" y="0.0" width="126" height="200"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Pet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxn-cH-NMO">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take a nap. I will wake you when I came" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxn-cH-NMO">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="80"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="80" id="cAa-Ke-ncc"/>
                                                                                 </constraints>
-                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="17"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -5390,14 +5483,567 @@
             </objects>
             <point key="canvasLocation" x="5720.289855072464" y="-41.576086956521742"/>
         </scene>
+        <!--N I B M     C A F E Login-->
+        <scene sceneID="Z92-DG-3r5">
+            <objects>
+                <viewController storyboardIdentifier="LOGIN" id="Tao-Cx-Q6N" userLabel="N I B M     C A F E Login" customClass="LoginScreenViewController" customModule="Research_P1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P9D-VG-uxI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hhX-La-lu1">
+                                <rect key="frame" x="0.0" y="44" width="414" height="692"/>
+                                <subviews>
+                                    <view multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IXd-d0-66f">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="DyY-gv-eft">
+                                                <rect key="frame" x="20" y="224" width="374" height="574"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LfR-m8-Kus">
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="54.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oBW-sa-QTq">
+                                                        <rect key="frame" x="0.0" y="74.333333333333314" width="374" height="54.333333333333343"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbY-Ek-h2X">
+                                                        <rect key="frame" x="0.0" y="148.66666666666669" width="374" height="54"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <color key="textColor" systemColor="systemRedColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhz-dU-bJg" customClass="RoundButton" customModule="Research_P1" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="222.66666666666669" width="374" height="54.333333333333314"/>
+                                                        <color key="backgroundColor" red="0.2666666667" green="0.47843137250000001" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                        <state key="normal" title="LOGIN">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="15"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="loginClicked:" destination="Tao-Cx-Q6N" eventType="touchUpInside" id="sOC-G5-KVX"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hez-Nd-dbL" customClass="FBSDKLoginButton">
+                                                        <rect key="frame" x="0.0" y="297" width="374" height="54.333333333333314"/>
+                                                        <color key="backgroundColor" red="0.2666666667" green="0.47843137250000001" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                        <state key="normal" title="CONTINUE WITH FACEBOOK">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="15"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBy-9f-Xoa" customClass="RoundButton" customModule="Research_P1" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="371.33333333333337" width="374" height="54.333333333333314"/>
+                                                        <color key="backgroundColor" red="0.2666666667" green="0.47843137250000001" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                        <state key="normal" title="VIEW AS GUEST">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="15"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NyF-u7-V7h" customClass="RoundButton" customModule="Research_P1" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="445.66666666666663" width="374" height="54"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                        <state key="normal" title="FORGOT PASSWORD">
+                                                            <color key="titleColor" red="0.10041090229999999" green="0.57296534799999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="15"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <segue destination="GR0-de-1j8" kind="show" id="bGn-EJ-7xU"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CBC-he-mas" customClass="RoundButton" customModule="Research_P1" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="519.66666666666663" width="374" height="54.333333333333371"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                        <state key="normal" title="REGISTER">
+                                                            <color key="titleColor" red="0.10041090229999999" green="0.57296534799999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="15"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <segue destination="fyh-2N-B26" kind="show" id="Tt7-5B-zdn"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="oBW-sa-QTq" firstAttribute="height" secondItem="LfR-m8-Kus" secondAttribute="height" id="07b-KH-ckL"/>
+                                                    <constraint firstItem="FBy-9f-Xoa" firstAttribute="height" secondItem="LfR-m8-Kus" secondAttribute="height" id="1Rk-IA-qcl"/>
+                                                    <constraint firstItem="oBW-sa-QTq" firstAttribute="width" secondItem="LfR-m8-Kus" secondAttribute="width" id="2T0-oy-NQG"/>
+                                                    <constraint firstItem="hbY-Ek-h2X" firstAttribute="height" secondItem="LfR-m8-Kus" secondAttribute="height" id="Eu2-0P-LKI"/>
+                                                    <constraint firstItem="FBy-9f-Xoa" firstAttribute="width" secondItem="LfR-m8-Kus" secondAttribute="width" id="Fdy-iH-D90"/>
+                                                    <constraint firstItem="hbY-Ek-h2X" firstAttribute="width" secondItem="LfR-m8-Kus" secondAttribute="width" id="HXO-MR-p8F"/>
+                                                    <constraint firstItem="hez-Nd-dbL" firstAttribute="width" secondItem="LfR-m8-Kus" secondAttribute="width" id="Mod-1m-meF"/>
+                                                    <constraint firstItem="CBC-he-mas" firstAttribute="width" secondItem="LfR-m8-Kus" secondAttribute="width" id="TKX-XQ-RXc"/>
+                                                    <constraint firstItem="NyF-u7-V7h" firstAttribute="width" secondItem="LfR-m8-Kus" secondAttribute="width" id="WpB-h7-b9t"/>
+                                                    <constraint firstItem="CBC-he-mas" firstAttribute="height" secondItem="LfR-m8-Kus" secondAttribute="height" id="fP0-NC-DwM"/>
+                                                    <constraint firstItem="NyF-u7-V7h" firstAttribute="height" secondItem="LfR-m8-Kus" secondAttribute="height" id="gW8-Sw-8BK"/>
+                                                    <constraint firstItem="jhz-dU-bJg" firstAttribute="height" secondItem="LfR-m8-Kus" secondAttribute="height" id="gfI-jr-AoI"/>
+                                                    <constraint firstItem="hez-Nd-dbL" firstAttribute="height" secondItem="LfR-m8-Kus" secondAttribute="height" id="oa2-Gm-wZO"/>
+                                                    <constraint firstItem="jhz-dU-bJg" firstAttribute="width" secondItem="LfR-m8-Kus" secondAttribute="width" id="rJf-oO-JEe"/>
+                                                </constraints>
+                                            </stackView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="be" translatesAutoresizingMaskIntoConstraints="NO" id="FIh-rO-ujC">
+                                                <rect key="frame" x="120" y="0.0" width="174" height="125"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. EEG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bW0-os-IDH" customClass="UHBCustomLabel" customModule="Research_P1" customModuleProvider="target">
+                                                <rect key="frame" x="67.666666666666686" y="125" width="279" height="39"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="characterSpacing">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. EEG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3a-Da-HE6" customClass="UHBCustomLabel" customModule="Research_P1" customModuleProvider="target">
+                                                <rect key="frame" x="68" y="125" width="279" height="39"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="characterSpacing">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="F3a-Da-HE6" secondAttribute="trailing" constant="67" id="5E1-4x-BNZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="FIh-rO-ujC" secondAttribute="trailing" constant="120" id="7Qj-G4-kor"/>
+                                            <constraint firstItem="F3a-Da-HE6" firstAttribute="top" secondItem="FIh-rO-ujC" secondAttribute="bottom" id="Ag4-4O-J6P"/>
+                                            <constraint firstItem="bW0-os-IDH" firstAttribute="top" secondItem="FIh-rO-ujC" secondAttribute="bottom" id="Gyt-g1-QXc"/>
+                                            <constraint firstItem="F3a-Da-HE6" firstAttribute="leading" secondItem="IXd-d0-66f" secondAttribute="leading" constant="68" id="Iof-CH-89P"/>
+                                            <constraint firstItem="DyY-gv-eft" firstAttribute="top" secondItem="FIh-rO-ujC" secondAttribute="bottom" constant="99" id="J8p-z3-XJf"/>
+                                            <constraint firstItem="DyY-gv-eft" firstAttribute="top" secondItem="bW0-os-IDH" secondAttribute="bottom" constant="60" id="M63-A2-CdG"/>
+                                            <constraint firstItem="bW0-os-IDH" firstAttribute="leading" secondItem="IXd-d0-66f" secondAttribute="leading" constant="67.5" id="R4G-8n-xQr"/>
+                                            <constraint firstItem="FIh-rO-ujC" firstAttribute="leading" secondItem="IXd-d0-66f" secondAttribute="leading" constant="120" id="U6e-yd-CNu"/>
+                                            <constraint firstAttribute="trailing" secondItem="DyY-gv-eft" secondAttribute="trailing" constant="20" id="VEt-fl-gp8"/>
+                                            <constraint firstAttribute="bottom" secondItem="DyY-gv-eft" secondAttribute="bottom" constant="20" id="VuA-v2-j68"/>
+                                            <constraint firstItem="DyY-gv-eft" firstAttribute="top" secondItem="F3a-Da-HE6" secondAttribute="bottom" constant="60" id="WsO-Zx-cHu"/>
+                                            <constraint firstAttribute="trailing" secondItem="bW0-os-IDH" secondAttribute="trailing" constant="67.5" id="dAj-cM-HYT"/>
+                                            <constraint firstAttribute="height" constant="818" id="drv-SS-NQ6"/>
+                                            <constraint firstItem="DyY-gv-eft" firstAttribute="top" secondItem="IXd-d0-66f" secondAttribute="top" constant="224" id="gfw-Zd-ihD"/>
+                                            <constraint firstItem="FIh-rO-ujC" firstAttribute="top" secondItem="IXd-d0-66f" secondAttribute="top" id="qYE-p1-TJR"/>
+                                            <constraint firstItem="DyY-gv-eft" firstAttribute="leading" secondItem="IXd-d0-66f" secondAttribute="leading" constant="20" id="rWE-3h-gHN"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="IXd-d0-66f" secondAttribute="bottom" id="6SG-fV-IGF"/>
+                                    <constraint firstItem="IXd-d0-66f" firstAttribute="top" secondItem="hhX-La-lu1" secondAttribute="top" id="eDO-Bb-1Oz"/>
+                                    <constraint firstItem="IXd-d0-66f" firstAttribute="leading" secondItem="hhX-La-lu1" secondAttribute="leading" id="fDF-sE-Oc3"/>
+                                    <constraint firstItem="IXd-d0-66f" firstAttribute="width" secondItem="hhX-La-lu1" secondAttribute="width" id="l5E-y1-KQf"/>
+                                    <constraint firstAttribute="trailing" secondItem="IXd-d0-66f" secondAttribute="trailing" id="zd5-IM-Bc1"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NLU-21-vyM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hhX-La-lu1" firstAttribute="trailing" secondItem="NLU-21-vyM" secondAttribute="trailing" id="nj6-I9-Lax"/>
+                            <constraint firstItem="hhX-La-lu1" firstAttribute="top" secondItem="NLU-21-vyM" secondAttribute="top" id="oq7-Nu-6JB"/>
+                            <constraint firstItem="hhX-La-lu1" firstAttribute="bottom" secondItem="NLU-21-vyM" secondAttribute="bottom" id="qwm-pi-nSW"/>
+                            <constraint firstItem="hhX-La-lu1" firstAttribute="leading" secondItem="NLU-21-vyM" secondAttribute="leading" id="vZI-tK-YA8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="D O C T O R       E E G" id="jEL-To-kd6"/>
+                    <connections>
+                        <outlet property="darkTextLabel" destination="bW0-os-IDH" id="p4j-mQ-dEI"/>
+                        <outlet property="emailTextField" destination="LfR-m8-Kus" id="sEm-ho-1U0"/>
+                        <outlet property="errorLabel" destination="hbY-Ek-h2X" id="XBd-td-lbU"/>
+                        <outlet property="loginButton" destination="hez-Nd-dbL" id="7h2-1j-yPb"/>
+                        <outlet property="passwordTextField" destination="oBW-sa-QTq" id="ZC8-1m-pZq"/>
+                        <outlet property="scrollView" destination="hhX-La-lu1" id="ijq-3O-29p"/>
+                        <outlet property="secoundView" destination="IXd-d0-66f" id="cUC-OC-m58"/>
+                        <outlet property="shinyTextLabel" destination="F3a-Da-HE6" id="szm-Jp-Bsc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TA6-ET-ndR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-66140.579710144928" y="-6732.0652173913049"/>
+        </scene>
+        <!--Sign Up-->
+        <scene sceneID="RbT-3i-Vzo">
+            <objects>
+                <viewController id="fyh-2N-B26" customClass="SignUpScreenViewController" customModule="Research_P1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ulD-3j-wnp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lWb-UO-zGe">
+                                <rect key="frame" x="0.0" y="44" width="414" height="692"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CH5-jU-wOq">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="RqH-wv-zTl">
+                                                <rect key="frame" x="20" y="30" width="374" height="494"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bq7-xM-VAe">
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="36.666666666666664"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="15"/>
+                                                        <color key="textColor" red="0.052858855429999997" green="0.4083006139" blue="0.77197017769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DcS-K5-pbT">
+                                                        <rect key="frame" x="0.0" y="41.666666666666671" width="374" height="36.666666666666671"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Bk-i4-xLr">
+                                                        <rect key="frame" x="0.0" y="83.333333333333343" width="374" height="36.333333333333343"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="15"/>
+                                                        <color key="textColor" red="0.052858855429999997" green="0.4083006139" blue="0.77197017769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r8X-wM-e2w">
+                                                        <rect key="frame" x="0.0" y="124.66666666666667" width="374" height="36.666666666666671"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PHONE NUMBER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNH-uR-FYF">
+                                                        <rect key="frame" x="0.0" y="166.33333333333334" width="374" height="36.666666666666657"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="15"/>
+                                                        <color key="textColor" red="0.052858855429999997" green="0.4083006139" blue="0.77197017769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3GP-UP-HZ0">
+                                                        <rect key="frame" x="0.0" y="208" width="374" height="36.666666666666657"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63a-9P-jZg">
+                                                        <rect key="frame" x="0.0" y="249.66666666666671" width="374" height="36.333333333333343"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="15"/>
+                                                        <color key="textColor" red="0.052858855429999997" green="0.4083006139" blue="0.77197017769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="put-wg-TLH">
+                                                        <rect key="frame" x="0.0" y="291" width="374" height="36.666666666666686"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RETYPE PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PV4-Qk-RyG">
+                                                        <rect key="frame" x="0.0" y="332.66666666666669" width="374" height="36.666666666666686"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="15"/>
+                                                        <color key="textColor" red="0.052858855429999997" green="0.4083006139" blue="0.77197017769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tUP-p3-zzX">
+                                                        <rect key="frame" x="0.0" y="374.33333333333331" width="374" height="36.666666666666686"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSt-ak-JgB">
+                                                        <rect key="frame" x="0.0" y="416" width="374" height="36.333333333333314"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <color key="textColor" systemColor="systemRedColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZz-ue-tuh" customClass="RoundButton" customModule="Research_P1" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="457.33333333333337" width="374" height="36.666666666666686"/>
+                                                        <color key="backgroundColor" red="0.047227970229999999" green="0.35217613269999998" blue="0.65868892769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                        <state key="normal" title="REGISTER">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="15"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="signupClicked:" destination="fyh-2N-B26" eventType="touchUpInside" id="C6C-cS-su0"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="PV4-Qk-RyG" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="2Ts-Tq-Q2g"/>
+                                                    <constraint firstItem="NNH-uR-FYF" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="2We-Ep-5od"/>
+                                                    <constraint firstItem="vSt-ak-JgB" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="4We-3o-vMW"/>
+                                                    <constraint firstItem="put-wg-TLH" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="5WN-2V-ShS"/>
+                                                    <constraint firstItem="NNH-uR-FYF" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="Aa6-bU-sMh"/>
+                                                    <constraint firstItem="DcS-K5-pbT" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="Bc3-oE-Ala"/>
+                                                    <constraint firstItem="3GP-UP-HZ0" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="CIX-wJ-x5q"/>
+                                                    <constraint firstItem="DcS-K5-pbT" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="CjC-dn-H4H"/>
+                                                    <constraint firstItem="63a-9P-jZg" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="CoP-PT-mzE"/>
+                                                    <constraint firstItem="63a-9P-jZg" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="DN0-IJ-vkF"/>
+                                                    <constraint firstItem="63a-9P-jZg" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="DVB-Ke-9AS"/>
+                                                    <constraint firstItem="r8X-wM-e2w" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="Iu2-zk-Tv4"/>
+                                                    <constraint firstItem="tUP-p3-zzX" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="J58-Pj-b98"/>
+                                                    <constraint firstItem="put-wg-TLH" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="JRf-cj-cOs"/>
+                                                    <constraint firstItem="r8X-wM-e2w" firstAttribute="width" secondItem="4Bk-i4-xLr" secondAttribute="width" id="KtZ-Tl-UYy"/>
+                                                    <constraint firstItem="4Bk-i4-xLr" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="LOb-iR-bfQ"/>
+                                                    <constraint firstItem="PV4-Qk-RyG" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="NBs-O8-5mo"/>
+                                                    <constraint firstItem="tUP-p3-zzX" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="NNX-AP-4L6"/>
+                                                    <constraint firstItem="vSt-ak-JgB" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="NaR-yE-NFY"/>
+                                                    <constraint firstItem="3GP-UP-HZ0" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="OGe-td-Kd1"/>
+                                                    <constraint firstItem="DcS-K5-pbT" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="P3E-Fz-ucT"/>
+                                                    <constraint firstItem="lZz-ue-tuh" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="PQb-qo-fBQ"/>
+                                                    <constraint firstItem="r8X-wM-e2w" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="Q73-kh-U8i"/>
+                                                    <constraint firstItem="NNH-uR-FYF" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="QF9-cH-dYM"/>
+                                                    <constraint firstItem="63a-9P-jZg" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="QUH-6G-ENB"/>
+                                                    <constraint firstItem="tUP-p3-zzX" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="QuO-Hi-w9h"/>
+                                                    <constraint firstItem="lZz-ue-tuh" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="R27-CI-ucS"/>
+                                                    <constraint firstItem="NNH-uR-FYF" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="ShW-pg-dz8"/>
+                                                    <constraint firstItem="tUP-p3-zzX" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="THQ-Pu-spM"/>
+                                                    <constraint firstItem="4Bk-i4-xLr" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="Utb-HY-hOS"/>
+                                                    <constraint firstItem="lZz-ue-tuh" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="Wrn-TG-UEK"/>
+                                                    <constraint firstItem="63a-9P-jZg" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="Wv9-aY-MXO"/>
+                                                    <constraint firstItem="r8X-wM-e2w" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="YTs-nJ-nfr"/>
+                                                    <constraint firstItem="tUP-p3-zzX" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="agb-3D-7IZ"/>
+                                                    <constraint firstItem="lZz-ue-tuh" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="aiN-Sg-yAZ"/>
+                                                    <constraint firstItem="4Bk-i4-xLr" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="b5e-sc-BEC"/>
+                                                    <constraint firstItem="DcS-K5-pbT" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="bD3-LO-jmK"/>
+                                                    <constraint firstItem="3GP-UP-HZ0" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="biR-tA-NiW"/>
+                                                    <constraint firstItem="tUP-p3-zzX" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="bnb-3F-1WL"/>
+                                                    <constraint firstItem="PV4-Qk-RyG" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="daY-M8-9qs"/>
+                                                    <constraint firstItem="63a-9P-jZg" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="ePB-7s-A1d"/>
+                                                    <constraint firstItem="put-wg-TLH" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="fvU-aJ-48E"/>
+                                                    <constraint firstItem="put-wg-TLH" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="fwX-Fa-Iv4"/>
+                                                    <constraint firstItem="lZz-ue-tuh" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="g6P-0a-VWa"/>
+                                                    <constraint firstItem="put-wg-TLH" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="gr0-v0-NJV"/>
+                                                    <constraint firstItem="r8X-wM-e2w" firstAttribute="height" secondItem="4Bk-i4-xLr" secondAttribute="height" id="hWb-eB-5Mw"/>
+                                                    <constraint firstItem="4Bk-i4-xLr" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="ii6-u4-bZJ"/>
+                                                    <constraint firstItem="DcS-K5-pbT" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="mOp-ha-x6Q"/>
+                                                    <constraint firstItem="put-wg-TLH" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="ojh-dV-Wok"/>
+                                                    <constraint firstItem="3GP-UP-HZ0" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="qK9-x7-bvL"/>
+                                                    <constraint firstItem="PV4-Qk-RyG" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="rEC-eO-YED"/>
+                                                    <constraint firstItem="PV4-Qk-RyG" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="ssp-71-Yl8"/>
+                                                    <constraint firstItem="3GP-UP-HZ0" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="tra-bi-wZl"/>
+                                                    <constraint firstItem="NNH-uR-FYF" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="uJe-bS-qn8"/>
+                                                    <constraint firstItem="PV4-Qk-RyG" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="ulE-v2-ODu"/>
+                                                    <constraint firstItem="NNH-uR-FYF" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="vT9-Qb-rK9"/>
+                                                    <constraint firstItem="3GP-UP-HZ0" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="wTI-EK-FBb"/>
+                                                    <constraint firstItem="r8X-wM-e2w" firstAttribute="height" secondItem="Bq7-xM-VAe" secondAttribute="height" id="wdS-xm-yZW"/>
+                                                    <constraint firstItem="lZz-ue-tuh" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="yxa-Qh-nw1"/>
+                                                    <constraint firstItem="DcS-K5-pbT" firstAttribute="width" secondItem="Bq7-xM-VAe" secondAttribute="width" id="zDd-b4-wyX"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="RqH-wv-zTl" firstAttribute="leading" secondItem="CH5-jU-wOq" secondAttribute="leading" constant="20" id="LhX-J2-LOW"/>
+                                            <constraint firstAttribute="bottom" secondItem="RqH-wv-zTl" secondAttribute="bottom" constant="250" id="UUk-ub-eao"/>
+                                            <constraint firstAttribute="height" constant="774" id="fe4-L2-Sv5"/>
+                                            <constraint firstItem="RqH-wv-zTl" firstAttribute="top" secondItem="CH5-jU-wOq" secondAttribute="top" constant="30" id="lvm-rA-00r"/>
+                                            <constraint firstAttribute="trailing" secondItem="RqH-wv-zTl" secondAttribute="trailing" constant="20" id="rFc-l2-2nF"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="CH5-jU-wOq" secondAttribute="trailing" id="AYS-9d-yTf"/>
+                                    <constraint firstItem="CH5-jU-wOq" firstAttribute="leading" secondItem="lWb-UO-zGe" secondAttribute="leading" id="DLf-Wy-4oQ"/>
+                                    <constraint firstItem="CH5-jU-wOq" firstAttribute="width" secondItem="lWb-UO-zGe" secondAttribute="width" id="m08-6r-PSg"/>
+                                    <constraint firstAttribute="bottom" secondItem="CH5-jU-wOq" secondAttribute="bottom" id="tzO-f9-Ddi"/>
+                                    <constraint firstItem="CH5-jU-wOq" firstAttribute="top" secondItem="lWb-UO-zGe" secondAttribute="top" id="z3h-7k-BQJ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KBg-Ta-taF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lWb-UO-zGe" firstAttribute="trailing" secondItem="KBg-Ta-taF" secondAttribute="trailing" id="asM-04-RTg"/>
+                            <constraint firstItem="lWb-UO-zGe" firstAttribute="leading" secondItem="KBg-Ta-taF" secondAttribute="leading" id="dlS-ZW-3Kk"/>
+                            <constraint firstItem="KBg-Ta-taF" firstAttribute="bottom" secondItem="lWb-UO-zGe" secondAttribute="bottom" id="nq8-1V-Xmb"/>
+                            <constraint firstItem="lWb-UO-zGe" firstAttribute="top" secondItem="KBg-Ta-taF" secondAttribute="top" id="yms-Pe-pFo"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sign Up" id="Fls-NM-8Yb"/>
+                    <connections>
+                        <outlet property="emailLabel" destination="4Bk-i4-xLr" id="hdr-be-ZIn"/>
+                        <outlet property="emailTextField" destination="r8X-wM-e2w" id="bxq-ni-RhV"/>
+                        <outlet property="errorLabel" destination="vSt-ak-JgB" id="FXm-w2-RRh"/>
+                        <outlet property="nameLabel" destination="Bq7-xM-VAe" id="kfk-xK-Ph1"/>
+                        <outlet property="nameTextField" destination="DcS-K5-pbT" id="ys4-ti-cyb"/>
+                        <outlet property="passwordLabel" destination="63a-9P-jZg" id="47G-jh-7QS"/>
+                        <outlet property="passwordTextField" destination="put-wg-TLH" id="LfD-Lq-frq"/>
+                        <outlet property="phoneLabel" destination="NNH-uR-FYF" id="P9f-rd-1Z4"/>
+                        <outlet property="phoneTextField" destination="3GP-UP-HZ0" id="3Ei-QX-grh"/>
+                        <outlet property="rPassLabel" destination="PV4-Qk-RyG" id="H3W-ey-e8h"/>
+                        <outlet property="registerButton" destination="lZz-ue-tuh" id="v9g-1U-1mU"/>
+                        <outlet property="retypePasswordTextField" destination="tUP-p3-zzX" id="Vrz-Sa-bwb"/>
+                        <outlet property="scrollView" destination="lWb-UO-zGe" id="Kdi-gY-pfx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gcz-Oh-PZA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-65373.913043478264" y="-7300.271739130435"/>
+        </scene>
+        <!--Forgot Password-->
+        <scene sceneID="CCW-f4-0Sg">
+            <objects>
+                <viewController id="GR0-de-1j8" customClass="ForgotPasswordViewController" customModule="Research_P1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sVy-ej-mOs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fyi-QL-ktA">
+                                <rect key="frame" x="0.0" y="44" width="414" height="692"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u5h-9Y-hQo">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kVm-MH-ggD">
+                                                <rect key="frame" x="27" y="47" width="360" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ic-T5-dHI">
+                                                <rect key="frame" x="34.666666666666657" y="97" width="345" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="P53-AT-rny"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" systemColor="systemRedColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="34H-kz-EoI" customClass="RoundButton" customModule="Research_P1" customModuleProvider="target">
+                                                <rect key="frame" x="57" y="164.66666666666666" width="300" height="43"/>
+                                                <color key="backgroundColor" red="0.052858855429999997" green="0.4083006139" blue="0.77197017769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="43" id="89I-Tm-mFq"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="RESET PASSWORD">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="reset_passwordClicked:" destination="GR0-de-1j8" eventType="touchUpInside" id="K1v-Nx-aPI"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="kVm-MH-ggD" firstAttribute="top" secondItem="u5h-9Y-hQo" secondAttribute="top" constant="47" id="9Sl-k5-8GK"/>
+                                            <constraint firstItem="kVm-MH-ggD" firstAttribute="leading" secondItem="u5h-9Y-hQo" secondAttribute="leading" constant="27" id="B0l-G9-6NF"/>
+                                            <constraint firstItem="34H-kz-EoI" firstAttribute="top" secondItem="8ic-T5-dHI" secondAttribute="bottom" constant="23.670000000000002" id="DTG-zX-IMO"/>
+                                            <constraint firstItem="34H-kz-EoI" firstAttribute="top" secondItem="8ic-T5-dHI" secondAttribute="bottom" constant="23.670000000000002" id="FVb-oO-jYD"/>
+                                            <constraint firstItem="34H-kz-EoI" firstAttribute="leading" secondItem="u5h-9Y-hQo" secondAttribute="leading" constant="57" id="Hs5-Lg-QW4"/>
+                                            <constraint firstAttribute="trailing" secondItem="kVm-MH-ggD" secondAttribute="trailing" constant="27" id="Lt2-nT-HQM"/>
+                                            <constraint firstAttribute="trailing" secondItem="8ic-T5-dHI" secondAttribute="trailing" constant="34.5" id="Qqk-fo-FSA"/>
+                                            <constraint firstAttribute="height" constant="774" id="SmA-QU-CKs"/>
+                                            <constraint firstAttribute="trailing" secondItem="34H-kz-EoI" secondAttribute="trailing" constant="57" id="VBF-Ar-0If"/>
+                                            <constraint firstItem="8ic-T5-dHI" firstAttribute="top" secondItem="kVm-MH-ggD" secondAttribute="bottom" constant="16" id="X34-8r-UOU"/>
+                                            <constraint firstItem="8ic-T5-dHI" firstAttribute="leading" secondItem="u5h-9Y-hQo" secondAttribute="leading" constant="34.5" id="mBq-Pl-LA5"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="u5h-9Y-hQo" secondAttribute="trailing" id="GSF-ba-oPG"/>
+                                    <constraint firstAttribute="bottom" secondItem="u5h-9Y-hQo" secondAttribute="bottom" id="Z2P-Kw-7eC"/>
+                                    <constraint firstItem="u5h-9Y-hQo" firstAttribute="leading" secondItem="fyi-QL-ktA" secondAttribute="leading" id="qIi-UL-8u1"/>
+                                    <constraint firstItem="u5h-9Y-hQo" firstAttribute="top" secondItem="fyi-QL-ktA" secondAttribute="top" id="sA3-oO-igG"/>
+                                    <constraint firstItem="u5h-9Y-hQo" firstAttribute="width" secondItem="fyi-QL-ktA" secondAttribute="width" id="vyZ-5Y-d46"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gfz-Vl-joz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fyi-QL-ktA" firstAttribute="top" secondItem="gfz-Vl-joz" secondAttribute="top" id="Qia-Yf-S2z"/>
+                            <constraint firstItem="fyi-QL-ktA" firstAttribute="trailing" secondItem="gfz-Vl-joz" secondAttribute="trailing" id="d3a-ry-jLc"/>
+                            <constraint firstItem="fyi-QL-ktA" firstAttribute="bottom" secondItem="gfz-Vl-joz" secondAttribute="bottom" id="kfj-Jz-vG1"/>
+                            <constraint firstItem="fyi-QL-ktA" firstAttribute="leading" secondItem="gfz-Vl-joz" secondAttribute="leading" id="vy1-Yh-aB4"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Forgot Password" id="yZc-yv-yfM"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="kVm-MH-ggD" id="tyj-Oj-u6B"/>
+                        <outlet property="errorLabel" destination="8ic-T5-dHI" id="mTx-Ce-g3V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NMF-dA-Clk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-65373.913043478264" y="-6549.4565217391309"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hMd-5I-gpi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KiO-9J-GgJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mJx-7E-Owu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Tao-Cx-Q6N" kind="relationship" relationship="rootViewController" id="v8i-sX-8NL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J5d-Fm-LCh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-67047.826086956527" y="-6732.0652173913049"/>
+        </scene>
     </scenes>
+    <designables>
+        <designable name="34H-kz-EoI">
+            <size key="intrinsicContentSize" width="155" height="33"/>
+        </designable>
+        <designable name="BXX-50-bLT">
+            <size key="intrinsicContentSize" width="901" height="994"/>
+        </designable>
+        <designable name="CBC-he-mas">
+            <size key="intrinsicContentSize" width="79" height="32"/>
+        </designable>
+        <designable name="FBy-9f-Xoa">
+            <size key="intrinsicContentSize" width="126" height="32"/>
+        </designable>
+        <designable name="LAO-7w-Ova">
+            <size key="intrinsicContentSize" width="986" height="974"/>
+        </designable>
+        <designable name="NyF-u7-V7h">
+            <size key="intrinsicContentSize" width="163" height="32"/>
+        </designable>
+        <designable name="jhz-dU-bJg">
+            <size key="intrinsicContentSize" width="50" height="32"/>
+        </designable>
+        <designable name="lZz-ue-tuh">
+            <size key="intrinsicContentSize" width="83" height="33"/>
+        </designable>
+    </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="g7r-oI-i4Q"/>
-        <segue reference="DZJ-lq-CF6"/>
+        <segue reference="Kaa-77-a1e"/>
+        <segue reference="YLp-y4-SYm"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1767760" width="512" height="512"/>
+        <image name="be" width="200" height="200"/>
+        <image name="black-dog-thin-line-icon-vector-12050890" width="952" height="974"/>
         <image name="book" catalog="system" width="128" height="102"/>
+        <image name="cat-line-icon-vector-28099798" width="901" height="994"/>
         <image name="face.smiling" catalog="system" width="128" height="121"/>
         <image name="fakurian-design-DgtbXKO1UOY-unsplash" width="5000" height="3000"/>
         <image name="hammer" catalog="system" width="128" height="117"/>
@@ -5422,6 +6068,12 @@
         <systemColor name="lightTextColor">
             <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
+        <systemColor name="quaternaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.17999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
@@ -5430,6 +6082,9 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

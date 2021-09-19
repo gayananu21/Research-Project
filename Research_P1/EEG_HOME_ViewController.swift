@@ -36,6 +36,8 @@ class EEG_HOME_ViewController: UIViewController {
     public var m=0.0
  
     
+   
+    
     @IBOutlet weak var P_Label: UILabel!
     
     @IBOutlet weak var T_Label: UILabel!
